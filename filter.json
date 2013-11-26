@@ -7,7 +7,7 @@
     },
     {
       "field_name": "appName",
-      "allowed_values": "*"
+      "allowed_values": "Firefox"
     },
     {
       "field_name": "appUpdateChannel",
@@ -15,15 +15,16 @@
     },
     {
       "field_name": "appVersion",
-      "allowed_values": "*"
+      "allowed_values": "28.0a1"
     },
     {
       "field_name": "appBuildID",
-      "allowed_values": { "min": "20131122" }
+      "allowed_values": "*"
     },
     {
       "field_name": "submission_date",
-      "allowed_values": "*"
+      "allowed_values": { "min": "20131125",
+                          "max": "20131125" }
     }
   ]
 }

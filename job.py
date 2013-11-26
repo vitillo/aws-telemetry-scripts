@@ -1,3 +1,5 @@
+import json
+
 def map(k, d, v, cx):
     j = json.loads(v)
     disk = j['info'].get('profileHDDModel', "N\A")
