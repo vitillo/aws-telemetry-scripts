@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get install git zsh linux-tools
-(git clone --recursive https://github.com/vitillo/dotfiles.git && cd dotfiles && make)
+git clone --recursive https://github.com/vitillo/dotfiles.git && cd dotfiles && make && cd ..
 sudo chsh ubuntu -s /bin/zsh
 rm -rf ~/.vim/bundle/YouCompleteMe/
 
