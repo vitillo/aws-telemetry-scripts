@@ -3,7 +3,7 @@
   "dimensions": [
     {
       "field_name": "reason",
-      "allowed_values": ["saved-session"]
+      "allowed_values": ["idle-daily", "saved-session"]
     },
     {
       "field_name": "appName",
@@ -15,16 +15,15 @@
     },
     {
       "field_name": "appVersion",
-      "allowed_values": "28.0a1"
+      "allowed_values": "29.0a1"
     },
     {
       "field_name": "appBuildID",
-      "allowed_values": "*"
+      "allowed_values": "20140203030203"
     },
     {
       "field_name": "submission_date",
-      "allowed_values": { "min": "20131125",
-                          "max": "20131125" }
+      "allowed_values": ["20140205"]
     }
   ]
 }
