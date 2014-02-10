@@ -2,11 +2,11 @@
 
 sudo apt-get install git zsh linux-tools python-dev
 sudo pip install numpy
-git clone --recursive https://github.com/vitillo/dotfiles.git && cd dotfiles && make && cd ..
+git clone --recursive https://github.com/vitillo/dotfiles.git && cd dotfiles && make; cd ..
 sudo chsh ubuntu -s /bin/zsh
 rm -rf ~/.vim/bundle/YouCompleteMe/
 
-git clone https://github.com/mozilla/telemetry-server.git
+git clone https://github.com/vitillo/telemetry-server.git
 git clone https://github.com/mreid-moz/s3funnel.git
 (cd s3funnel && sudo python setup.py install)
 
