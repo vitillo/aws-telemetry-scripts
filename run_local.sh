@@ -8,5 +8,5 @@ python -m mapreduce.job ../mainthreadio.py \
    --data-dir /mnt/telemetry/work/cache \
    --work-dir /mnt/telemetry/work \
    --output /mnt/telemetry/my_mapreduce_results.out \
-   --bucket "telemetry-published-v1" \
+   --bucket "telemetry-published-v2" \
    --local-only
