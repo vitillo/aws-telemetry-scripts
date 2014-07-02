@@ -8,4 +8,4 @@ python -m mapreduce.job ../mainthreadio.py \
    --data-dir /mnt/telemetry/work \
    --work-dir /mnt/telemetry/work \
    --output /mnt/telemetry/my_mapreduce_results.out \
-   --bucket "telemetry-published-v1"
+   --bucket "telemetry-published-v2"
